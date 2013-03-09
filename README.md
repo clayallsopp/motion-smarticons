@@ -41,6 +41,10 @@ end
 
 ![Custom smarticons](http://i.imgur.com/v5lDmDq.png)
 
+## Gotchas
+
+iOS will cache old app icons, even after a clean build. If your icon hasn't updated, move it in and out of a folder to update it to the latest version.
+
 ## Credits
 
 Shoutout to [@merowing_](http://twitter.com/merowing_) for his article on [generating app icons](http://www.merowing.info/2013/03/overlaying-application-version-on-top-of-your-icon).
