@@ -27,7 +27,7 @@ Motion::Project::App.setup do |app|
 end
 ```
 
-![Default smarticons](http://g.com)
+![Default smarticons](http://i.imgur.com/GPgwZRv.png)
 
 If you want to display a custom string, simply use `#smarticons=`:
 
