@@ -1,7 +1,7 @@
 PATH
   remote: .
   specs:
-    motion-smarticons (1.0)
+    motion-smarticons (0.1)
       rmagick (~> 2.13)
 
 GEM
