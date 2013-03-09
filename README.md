@@ -6,12 +6,12 @@ motion-smarticons lets you overlay information text like commit hash and version
 
 ## Installation
 
-`gem install motion-smarticons`
-`require 'motion-smarticons'`
+- `gem install motion-smarticons`
+- `require 'motion-smarticons'`
 
 or add it to your `Gemfile`:
 
-`gem 'motion-smarticons'`
+- `gem 'motion-smarticons'`
 
 ## Usage
 
