@@ -1,0 +1,16 @@
+PATH
+  remote: .
+  specs:
+    motion-smarticons (1.0)
+      rmagick (~> 2.13)
+
+GEM
+  remote: https://rubygems.org/
+  specs:
+    rmagick (2.13.2)
+
+PLATFORMS
+  ruby
+
+DEPENDENCIES
+  motion-smarticons!
