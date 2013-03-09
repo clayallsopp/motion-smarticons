@@ -1,4 +1,4 @@
-# motion-smarticons
+# motion-smarticons for [RubyMotion](http://rubymotion.com)
 
 motion-smarticons lets you overlay information text like commit hash and version number on top of RubyMotion app icons:
 
