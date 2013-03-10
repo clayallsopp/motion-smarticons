@@ -1,0 +1,16 @@
+# -*- coding: utf-8 -*-
+$:.unshift("/Library/RubyMotion/lib")
+require 'motion/project'
+
+require 'motion-smarticons'
+
+Motion::Project::App.setup do |app|
+  # Use `rake config' to see complete project settings.
+  app.name = 'Example'
+  app.icons = ['Icon.png', 'Icon@2x.png']
+
+  app.version = "0.5"
+
+  app.smarticons!
+  # app.smarticons = "Test Version"
+end
