@@ -31,6 +31,16 @@ class SmartIconsConfig
   private
   def create_icons
     icons = @config.icons
+
+    # Handle the case where #icons isn't explicitly set
+    if icons.empty?
+      ["Icon.png", "Icon@2x.png"].each {|i|
+        [i, i.downcase].each { |filename|
+          icons << filename if File.exists? File.join(@config.resources_dirs, filename)
+        }
+      }
+    end
+
     files = icons.map {|i|
       [File.join(@config.resources_dirs, i),
         File.join(@config.resources_dirs, "_smart_#{i}")]
