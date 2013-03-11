@@ -1,6 +1,6 @@
 # -*- encoding: utf-8 -*-
 
-Version = "0.2"
+Version = "0.3"
 
 Gem::Specification.new do |spec|
   spec.name = 'motion-smarticons'
